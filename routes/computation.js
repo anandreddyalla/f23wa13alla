@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
 
     res.write("Computes the values for Math.atan2, Math.atanh and Math.cbrt function."+"\n")
 
-    res.write('Math.atan2() applied to '+value+" is "+Math.atan2(value)+"\n");
+    res.write('Math.atan2 applied to '+value+" is "+Math.atan2(value)+"\n");
 
     res.write('Math.atanh  applied to '+value+" is "+Math.atanh(value)+"\n");
 
