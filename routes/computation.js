@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
 
     value=Math.random()
 
-    res.write("Computes the values for Math.abs and math.sin function."+"\n")
+    res.write("Computes the values for Math.atan2, Math.atanh and Math.cbrt function."+"\n")
 
     res.write('Math.atan2() applied to '+value+" is "+Math.atan2(value)+"\n");
 
